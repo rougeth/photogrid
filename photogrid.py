@@ -47,7 +47,6 @@ def create_image(tiles, output, width, height):
     "output",
     type=click.Path(dir_okay=False, exists=False),
     required=True,
-    help="Filename of rendered imagem",
 )
 @click.option(
     "-p",

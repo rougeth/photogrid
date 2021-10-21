@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "photogrid"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Marco Rougeth <pypi@rougeth.com>"]
 
@@ -11,6 +11,9 @@ click = "^8.0.3"
 rich = "^10.12.0"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+photogrid = "photogrid:cli"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
